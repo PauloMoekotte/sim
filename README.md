@@ -28,7 +28,7 @@
 ```bash
 npx simstudio
 ```
-→ http://localhost:3000
+→ http://localhost:3500
 
 #### Note
 Docker must be installed and running on your machine.
@@ -44,7 +44,7 @@ Docker must be installed and running on your machine.
 
 ```bash
 # Clone the repository
-git clone https://github.com/PauloMoekotte/simstudio.git
+git clone https://github.com/PauloMoekotte/sim.git
 
 # Navigate to the project directory
 cd sim
@@ -67,7 +67,7 @@ docker compose -f docker-compose.ollama.yml --profile setup up -d
 docker compose -f docker-compose.ollama.yml --profile cpu --profile setup up -d
 ```
 
-Wait for the model to download, then visit [http://localhost:3000](http://localhost:3000). Add more models with:
+Wait for the model to download, then visit [http://localhost:3500](http://localhost:3500). Add more models with:
 ```bash
 docker compose -f docker-compose.ollama.yml exec ollama ollama pull llama3.1:8b
 ```
