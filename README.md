@@ -44,7 +44,7 @@ Docker must be installed and running on your machine.
 
 ```bash
 # Clone the repository
-git clone https://github.com/simstudioai/sim.git
+git clone https://github.com/PauloMoekotte/simstudio.git
 
 # Navigate to the project directory
 cd sim
@@ -53,7 +53,7 @@ cd sim
 docker compose -f docker-compose.prod.yml up -d
 ```
 
-Access the application at [http://localhost:3000/](http://localhost:3000/)
+Access the application at [http://localhost:3500/](http://localhost:3500/)
 
 #### Using Local Models with Ollama
 
